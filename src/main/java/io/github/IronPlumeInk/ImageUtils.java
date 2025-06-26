@@ -7,6 +7,10 @@ import java.awt.image.DataBufferInt;
 import org.opencv.core.CvType;
 import org.opencv.core.Mat;
 
+
+ /**
+ * 图片工具类，Mat 和 BufferedImage 之间的转换
+ */
 public class ImageUtils {
 
     /**

@@ -2,6 +2,10 @@ package io.github.IronPlumeInk;
 
 import org.opencv.core.Rect;
 
+    /**
+    * 描述图像处理参数的类
+    */
+
 public class ImageProcessingParams {
     // 版面参数
     public String skewType; // "auto" or "manual"
@@ -17,7 +21,7 @@ public class ImageProcessingParams {
     public int usmIterations;
     public double usmAmount;
     public double usmRadius;
-    public double usmThreshold;
+    public int usmThreshold;
 
     // 曲线调整参数（仅含图页面）
     public CurveAdjustmentParams curveAdjustment;
